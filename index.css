@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f799c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    color: #333;
+}
+
+.birthday-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.birthday-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.birthday-item img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.details {
+    text-align: left;
+}
+
+.name {
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.age {
+    margin: 0;
+    color: #888;
+}
+
+.view-all {
+    background-color: #be50e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.view-all:hover {
+    background-color: #c72cf7;
+}
